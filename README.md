@@ -5,13 +5,21 @@ This repository contains a Qt-based C++ application for battery defect detection
 
 ## Project Structure
 ├── main.cpp # Application entry point
+
 ├── mainwindow.cpp # Main window implementation
+
 ├── mainwindow.h # Main window class definition
+
 ├── mainwindow.ui # Qt Designer UI file
+
 ├── mythread.cpp # Background thread implementation
+
 ├── mythread.h # Thread class definition
+
 ├── test.cpp # Test harness / sample usage
+
 ├── qt_battery.pro # Qt project file
+
 └── README.md # This file
 
 ## Prerequisites
