@@ -1,10 +1,18 @@
 # Battery
-# Qt Battery Defect Inspection
+# Qt Battery Defect Detection
 
-This repository contains a Qt-based C++ application for battery defect inspection. The GUI and core logic are implemented in Qt Widgets, allowing rapid deployment on any platform with Qt support.
+This repository contains a Qt-based C++ application for battery defect detection. The GUI and core logic are implemented in Qt Widgets, allowing rapid deployment on any platform with Qt support.
 
 ## Project Structure
-
+├── main.cpp # Application entry point
+├── mainwindow.cpp # Main window implementation
+├── mainwindow.h # Main window class definition
+├── mainwindow.ui # Qt Designer UI file
+├── mythread.cpp # Background thread implementation
+├── mythread.h # Thread class definition
+├── test.cpp # Test harness / sample usage
+├── qt_battery.pro # Qt project file
+└── README.md # This file
 
 ## Prerequisites
 
@@ -35,16 +43,14 @@ No additional dependencies are required—Qt handles all GUI and threading.
 Usage
 
     Load an Image
-    Use the “Open” menu to select a battery sample image (e.g. BMP, PNG).
 
-    Inspect Defects
-    Click Analyze. The app will:
+    Click Begin. The app will:
 
         Locate the battery via bilateral scanning projection.
 
         Extract spatial‐statistical and frequency‐domain features.
 
-        Classify the sample as “Defective” or “OK.”
+        Classify the sample as “BAD” or “OK.”
 
     Threading
     Defect detection runs in a background thread (MyThread), ensuring the GUI remains responsive.
