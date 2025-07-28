@@ -1,7 +1,9 @@
-# Battery
+# MDFI
 # Qt Battery Defect Detection
 
-This repository contains a Qt-based C++ application for battery defect detection. The GUI and core logic are implemented in Qt Widgets, allowing rapid deployment on any platform with Qt support.
+This repository contains a Qt-based C++ application for battery defect detection. The GUI and core logic are implemented in Qt Widgets, allowing rapid deployment on any platform with Qt support. It also provides the core code for our TCE journal paper, “Advancing Industrial Battery Defect Analysis via Multi‑Domain Feature Integration and Optimized Neural Pruning for Edge System.”
+
+
 
 ## Project Structure
 ├── main.cpp # Application entry point
