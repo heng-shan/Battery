@@ -18,7 +18,11 @@ This repository contains a Qt-based C++ application for battery defect detection
 Automated battery defect detection is essential for ensuring quality and safety in consumer electronics manufacturing, enabling enhanced edge-level decision-making and operational efficiency. However, existing methods struggle to achieve both high accuracy and real-time performance required by edge-based industrial scenarios. This paper introduces a lightweight, multi-domain feature integration approach designed specifically for edge deployment, significantly enhancing the practical applicability of battery defect classification. Firstly, a bilateral scanning projection module is developed for precise and rapid battery localization, segmenting battery images efficiently into inner circle, inner ring, and outer ring regions. Subsequently, a spatial-statistical feature fusion module effectively captures structural defects in the spatial domain. To streamline feature extraction and ensure consistent classification accuracy, the annular regions undergo polar coordinate transformation, resulting in simplified geometric representation. Additionally, we propose a frequency-enhanced optimization strategy tailored for lightweight edge networks, utilizing Fast Fourier Transform and frequency filtering methods to accurately identify complex texture defects. To further meet real-time requirements and minimize computational overhead, we apply Taylor pruning techniques to optimize network performance, facilitating efficient deployment using the OpenVINO framework on edge devices. The proposed lightweight AI framework achieves a classification accuracy of 98.8\% while maintaining a rapid inference speed of 20ms per image, substantially outperforming current battery defect detection approaches and demonstrating significant potential for edge-enhanced decision-making in consumer electronics manufacturing.
 
 
-
+<p align="center">
+  <a href="figure/speed.pdf">
+    <img src="figure/speed.png" alt="Overview" width="720">
+  </a>
+</p>
 
 
 
